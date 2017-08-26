@@ -47,10 +47,6 @@ app.route('/')
 		  res.sendFile(process.cwd() + '/views/index.html');
     })
 
-app.route('/moo')
-    .get(function(req, res) {
-		  res.send('MOO IS A SMELLY ASS AND STINKCS BADDSSSS');
-    })
 
 // Respond with date
 app.use(function(req, res, next){
